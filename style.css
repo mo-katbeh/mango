@@ -1,0 +1,23 @@
+#product{
+    margin: 10px;
+    color: orange;
+}
+.first{
+    font-size: small;
+    border-color: aquamarine;
+}
+article p:last-child{
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul li:nth-child(3n ){
+    color: blue;
+}
+a :visited,
+a :link{
+    color: darkcyan;
+}
+a :hover, a:focus{
+    color: deeppink;
+}
