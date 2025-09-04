@@ -1,35 +1,25 @@
-#product{
+body{
     margin: 10px;
-    color: orange;
 }
-.first{
-    font-size: small;
-    border-color: aquamarine;
+table, th{
+    border: 1px solid #c4dcf3;
+    border-collapse: collapse;
+    border-left: 0;
+    border-right: 0;
 }
-/* article p:last-child{
-    font-style: italic;
-    font-weight: bold;
-} */
 
-ul li:nth-child(3n ){
-    color: blue;
+td, th{
+    padding: 10px;
 }
-a:visited ,a:link{
-    color: teal;
+th {
+    background-color: #427fef;
+    color: white;
+
 }
-a:hover, a:focus{
-    color: brown;
+tr:nth-child(odd) {
+    background-color: #eef7ff;
+
 }
-p::first-line{
-    font-weight: bold;
-    font-size: large;
-    
-}
-.first-letter{
-    font-weight: bold;
-}
-.box{
-    width: 200px;
-    height: 150px;
-    background-color: aqua;
+tfoot {
+    text-align: left;
 }
