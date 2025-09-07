@@ -4,10 +4,10 @@
 .box::before{
     content: "start";
 } */
-  body{
+  /* body{
     margin: 10px;
     height: 200vh;
- }
+ } */
  /*
 .box{
     width: 100%;
@@ -18,7 +18,7 @@
     overflow: visible;
     padding: 20px;
 } */
-.boxes{
+/* .boxes{
     border: 3px solid gray;
     position: relative;
 }
@@ -34,9 +34,33 @@
     position: fixed;
     left: 5rem;
     top: 0vh;
-    /* bottom: 0vh; */
+    bottom: 0vh;
     z-index: 9999;
 }
 .box-three{
     background-color: dodgerblue;
+} */
+
+.container{
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+
+.box{
+    flex-basis: 10rem ;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    margin: 1rem;
+}
+.box-one{
+    /* align-self: center; */
+    /* flex-grow: 4; */
+    flex-shrink: 0;
 }
